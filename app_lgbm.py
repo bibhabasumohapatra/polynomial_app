@@ -8,6 +8,7 @@ import seaborn as sns
 import lightgbm as lgb
 import joblib
 import streamlit as st
+import  nltk
 nltk.download('punkt')
 
 st.header("Internship at polynomial drive")
