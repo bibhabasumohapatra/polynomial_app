@@ -34,7 +34,7 @@ xtest = tfidf_vec.transform(test_df.review)
 value_in_int = model_inference.predict(xtest)
 
 #### show the following values
-if value_in_int == 1:
+if value_in_int == 1 or value_in_int == 0:
     #### show its negetive (very negetive)
     st.markdown('## its negetive review')
 
