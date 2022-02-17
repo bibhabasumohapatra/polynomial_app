@@ -2,7 +2,7 @@ joblib==1.1.0
 lightgbm==3.3.2
 nltk==3.7
 numpy==1.21.0
-pandas==1.15.0
+pandas==0.15.0
 scikit_learn==1.0.2
 seaborn==0.11.2
 streamlit==1.5.1
