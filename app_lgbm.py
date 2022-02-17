@@ -18,7 +18,7 @@ st.header("Internship at polynomial drive")
 ######### I convert it into pandas dataframe
 
 
-text = st.text_area("input text")
+text = st.markdown("# input text")
 test_dict = {
     "review": [text]
 }
@@ -36,19 +36,19 @@ value_in_int = model_inference.predict(xtest)
 #### show the following values
 if value_in_int == 1:
     #### show its negetive (very negetive)
-    st.write('its negetive review')
+    st.markdown('## its negetive review')
 
 if value_in_int == 2:
     #### show its negetive (marginally negetive)
-    st.write('its negetive review(marginally negetive)')
+    st.markdown('## its negetive review(marginally negetive)')
 
 if value_in_int == 3:
     #### show its nreutral
-    st.write('its neutral review')
+    st.markdown('## its neutral review')
 
 if value_in_int == 4:
     #### show its positive
-    st.write('its positive review(marginally positive)')
+    st.markdown('## its positive review(marginally positive)')
 
 if value_in_int == 5:
     #### show its positive
