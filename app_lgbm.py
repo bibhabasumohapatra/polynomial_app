@@ -18,7 +18,7 @@ st.header("Internship at polynomial drive")
 ######### I convert it into pandas dataframe
 
 
-text = st.markdown("# input text")
+text = st.text_area("input text")
 test_dict = {
     "review": [text]
 }
